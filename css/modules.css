@@ -1,0 +1,123 @@
+div {
+  text-align: center;
+}
+
+#a {
+  background-color: rgb(89, 180, 171);
+  height: 75px;
+  line-height: 75px;
+}
+
+#b {
+  background-color: rgb(221, 118, 221);
+  height: 150px;
+  line-height: 150px;
+}
+
+#c {
+  background-color: rgb(102, 102, 187);
+}
+
+#d {
+  background-color: rgb(170, 247, 221);
+}
+
+#e {
+  background-color: rgb(76, 76, 247);
+}
+
+.c {
+  height: 125px;
+  line-height: 125px;
+}
+
+.e {
+  display: inline-block; 
+  height: 250px;
+  line-height: 250px;
+  width: 240px;
+}
+
+#i {
+  background-color: rgb(131, 72, 131);
+  height: 80px;
+  line-height: 80px;
+}
+
+#f {
+  background-color: rgb(207, 92, 207);
+  margin-left: -4px;
+}
+
+#g {
+  background-color: turquoise;
+}
+
+#h {
+  background-color: aqua;
+  margin-left: -4px;
+}
+
+@media only screen and (min-width: 768px){
+  .e {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+  }
+
+  #a {
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(152, 194, 248);
+  }
+
+  #b {
+    background-color: rgb(253, 216, 234);
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+    float: left;
+  }
+
+  #c {
+    background-color: rgb(255, 92, 154);
+  }
+
+  .c {
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+  }
+
+  #d {
+    background-color: rgb(53, 127, 171);
+    float: right;
+  }
+
+  #e {
+    background-color: rgb(66, 147, 172);
+  }
+
+  #f {
+    background-color: rgb(170, 212, 245);
+  }
+
+  #g {
+    background-color: rgb(212, 154, 212);
+    margin-left: -4px;
+  }
+  
+  #h {
+    background-color: rgb(142, 106, 142);
+  }
+
+  #i {
+    background-color: rgb(206, 132, 143);
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
+    float: right;
+  }
+
+}
